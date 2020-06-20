@@ -1,0 +1,10 @@
+<launch>
+
+  <group ns="TIAgoMunoz">
+  	<node pkg="tiago_moveit_tutorial" name="MyMoveit" type="plan_arm_torso_ik" output="screen" args="0.6 0 1.2 0 1.57 0"/>
+    
+    
+
+  </group>
+
+</launch>
